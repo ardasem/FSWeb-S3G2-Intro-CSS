@@ -1,0 +1,70 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero--text{
+    text-align: center;
+    background-color: rgb(229, 198, 151);
+    padding: 20px;
+    color: white;
+}
+
+nav a {
+    background-color: lightblue;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding:0 50px;
+    margin: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero--container{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.hero--text--container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero--container img{
+   max-width: 20%;
+   border-radius: 50%;
+}
+
+.info--section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 410px;
+}
+
+.info--section img{
+    max-width: 15%;
+}
